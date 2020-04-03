@@ -101,7 +101,7 @@ How is this possible? As Peters notes, GDP gives equal weight to the dollar. Mor
 I'm not making any statment about the prosperity of people today - all I've done is built a little toy and applied different metrics to it.
 But, if our society were to ever turn into one resembling the toy city, with over 80% of people getting poorer over time, it's entirely possible that GDP wouldn't alert us to a decay of the majority. 
 
-As a reward for getting to the end - the reason for the discrepancy in metrics when applied to Peanut City is because the logarithmic returns of the game are unfavorable to begin with. |ln(0.6)| > |ln(1.5)|
+As a reward for getting to the end - the reason for the discrepancy in metrics when applied to Peanut City is because the logarithmic returns of the game are unfavorable to begin with. |log(0.6)| > |log(1.5)|
 
 Tweaking the payoffs to something like 1.6 and 0.7 would result in a different Peanut City! Thank you for reading my piece. 
 
