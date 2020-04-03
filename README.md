@@ -99,7 +99,11 @@ Measuring the prosperity of the cohort this way, our group's starting DDP of $10
 How is this possible? As Peters notes, GDP gives equal weight to the dollar. More dollars in society means society is doing better, regardless of how those dollars were distributed before and after. DDP gives an equal weight to the person. Immediately it becomes clear why our peanut society tanked via the DDP but prospered with GDP, even though recall that the coin-flipping procedure mathematically increased the wealth of the average participant over time. 
 
 I'm not making any statment about the prosperity of people today - all I've done is built a little toy and applied different metrics to it.
-But, if our society were to ever turn into one resembling the toy city, with over 80% of people getting poorer over time, it's entirely possible that GDP wouldn't alert us to a decay of the majority. Thank you for reading my piece. 
+But, if our society were to ever turn into one resembling the toy city, with over 80% of people getting poorer over time, it's entirely possible that GDP wouldn't alert us to a decay of the majority. 
+
+As a reward for getting to the end - the reason for the discrepancy in metrics when applied to Peanut City is because the logarithmic returns of the game are unfavorable to begin with. |ln(0.6)| > |ln(1.5)|
+
+Tweaking the payoffs to something like 1.6 and 0.7 would result in a different Peanut City! Thank you for reading my piece. 
 
 # Notes
 
