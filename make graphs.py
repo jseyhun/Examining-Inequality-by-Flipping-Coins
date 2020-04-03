@@ -122,8 +122,10 @@ sum(all_trajects_end_vals.between(100, 200))
 #5,907 of the people that made money made less than $100
 
 sum(all_trajects_end_vals.between(200, 1000))
-#4500 people made between 200 and 1000
+#4560 people made between 200 and 1000
 
+sum(all_trajects_end_vals.between(1000, 10000))
+#6425 made between 1000 and 100000
 
 all_trajects_end_vals[all_trajects_end_vals > 10000]
 
