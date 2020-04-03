@@ -68,11 +68,11 @@ Of course, we also want to look at the flippers that ended up making money:
 * 4,560 ended up with more than $200 but less than $1,000.
 * 6,245 people ended up with between $1,000 and $10,000.
 
-That leaves about 1581 people, or 1.6% of the overall cohort who ended up making over $10K. Now let's look at the distribution of just those folks.
+That leaves about 1,581 people, or 1.6% of the overall cohort who ended up making over $10K. Now let's look at the distribution of just those folks.
 
 <p align="center"><img src='https://github.com/jseyhun/Examining-Inequality-by-Flipping-Coins/blob/master/images/Histogram%20100%2C000%20trajectories%2C%20ended%20with%20more%20than%20%2410%2C000%20-%2060%20flips.png' /></p>
 
-It actually doesn't look to different than the previous histogram, and it tells us that the vast majority of the people that made over $10K are making not much more than that.
+It actually doesn't look too different than the previous histogram, and it tells us that the vast majority of the people that made over $10K are making not much more than that.
 To round out the biggest winners of the experiment, the top twenty made between $1.5 million and $10 million, with the winner
 of the game winning $9.9 million.
 
