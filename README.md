@@ -8,7 +8,7 @@ How could those two things both be true? Well, that's exactly the question I had
 # Results
 
 The experiment goes like this: You start with $100 of wealth and flip a fair coin. If it lands heads, your wealth increases by 50%.
-If tails, your wealth descreases by 40%. Just based on those numbers alone it would appear to be a favorable game. 
+If tails, your wealth decreases by 40%. Just based on those numbers alone it would appear to be a favorable game. 
 After one flip, you'll either have $150 or $60 with equal likelihood, for an expected value of $105. 
 Similarly after two flips, you now stand to have either $225 with probability 1/4, $90 with probability 1/2, or $36 with probability 1/4, for an expected value of $110.25, which represents a 5% gain over your expected wealth from the previous round. So it does appear to be a wealth generating game. 
 But now let's see what happens when we actually play, following the trajectory of one player flipping a coin once per minute for an hour: 
