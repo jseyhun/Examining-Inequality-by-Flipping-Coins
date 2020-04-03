@@ -103,7 +103,7 @@ But, if our society were to ever turn into one resembling the toy city, with ove
 
 As a reward for getting to the end - the reason for the discrepancy in metrics when applied to Peanut City is because the logarithmic returns of the game are unfavorable to begin with. |log(0.6)| > |log(1.5)|
 
-Tweaking the payoffs to something like 1.6 and 0.7 would result in a different Peanut City! Thank you for reading my piece. 
+Tweaking the payoffs to something like 1.6 and 0.7 would result in a different set of peanuts! Thank you for reading my piece. 
 
 # Notes
 
