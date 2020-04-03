@@ -80,7 +80,7 @@ In terms of the total wealth of the cohort:
 
 * The wealthiest person holds 5.9%
 * The top 10 wealthiest people hold 23%
-* And the top 100 wealthiest people - representing 0.1% of people - hold 55% of the entire wealth of the cohort.
+* And the top 100 wealthiest - representing 0.1% of people - hold 55% of the entire wealth of the cohort.
 
 # Discussion
 
