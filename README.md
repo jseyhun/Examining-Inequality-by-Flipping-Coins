@@ -8,7 +8,7 @@ How could those two things both be true? Well, that's exactly the question I had
 # Results
 
 The experiment goes like this: You start with $100 of wealth and flip a fair coin. If it lands heads, your wealth increases by 50%.
-If tails, your wealth descreases by 40%. Just based on those numbers alone it would appear to be a favorable game. 
+If tails, your wealth decreases by 40%. Just based on those numbers alone it would appear to be a favorable game. 
 After one flip, you'll either have $150 or $60 with equal likelihood, for an expected value of $105. 
 Similarly after two flips, you now stand to have either $225 with probability 1/4, $90 with probability 1/2, or $36 with probability 1/4, for an expected value of $110.25, which represents a 5% gain over your expected wealth from the previous round. So it does appear to be a wealth generating game. 
 But now let's see what happens when we actually play, following the trajectory of one player flipping a coin once per minute for an hour: 
@@ -68,11 +68,11 @@ Of course, we also want to look at the flippers that ended up making money:
 * 4,560 ended up with more than $200 but less than $1,000.
 * 6,245 people ended up with between $1,000 and $10,000.
 
-That leaves about 1581 people, or 1.6% of the overall cohort who ended up making over $10K. Now let's look at the distribution of just those folks.
+That leaves about 1,581 people, or 1.6% of the overall cohort who ended up making over $10K. Now let's look at the distribution of just those folks.
 
 <p align="center"><img src='https://github.com/jseyhun/Examining-Inequality-by-Flipping-Coins/blob/master/images/Histogram%20100%2C000%20trajectories%2C%20ended%20with%20more%20than%20%2410%2C000%20-%2060%20flips.png' /></p>
 
-It actually doesn't look to different than the previous histogram, and it tells us that the vast majority of the people that made over $10K are making not much more than that.
+It actually doesn't look too different than the previous histogram, and it tells us that the vast majority of the people that made over $10K are making not much more than that.
 To round out the biggest winners of the experiment, the top twenty made between $1.5 million and $10 million, with the winner
 of the game winning $9.9 million.
 
@@ -80,7 +80,7 @@ In terms of the total wealth of the cohort:
 
 * The wealthiest person holds 5.9%
 * The top 10 wealthiest people hold 23%
-* And the top 100 wealthiest people - representing 0.1% of people - hold 55% of the entire wealth of the cohort.
+* And the top 100 wealthiest - representing 0.1% of people - hold 55% of the entire wealth of the cohort.
 
 # Discussion
 
@@ -99,7 +99,11 @@ Measuring the prosperity of the cohort this way, our group's starting DDP of $10
 How is this possible? As Peters notes, GDP gives equal weight to the dollar. More dollars in society means society is doing better, regardless of how those dollars were distributed before and after. DDP gives an equal weight to the person. Immediately it becomes clear why our peanut society tanked via the DDP but prospered with GDP, even though recall that the coin-flipping procedure mathematically increased the wealth of the average participant over time. 
 
 I'm not making any statment about the prosperity of people today - all I've done is built a little toy and applied different metrics to it.
-But, if our society were to ever turn into one resembling the toy city, with over 80% of people getting poorer over time, it's entirely possible that GDP wouldn't alert us to a decay of the majority. Thank you for reading my piece. 
+But, if our society were to ever turn into one resembling the toy city, with over 80% of people getting poorer over time, it's entirely possible that GDP wouldn't alert us to a decay of the majority. 
+
+As a reward for getting to the end - the reason for the discrepancy in metrics when applied to Peanut City is because the logarithmic returns of the game are unfavorable to begin with. |log(0.6)| > |log(1.5)|
+
+Tweaking the payoffs to something like 1.6 and 0.7 would result in a different set of peanuts! Thank you for reading my piece. 
 
 # Notes
 
