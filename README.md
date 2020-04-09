@@ -1,6 +1,6 @@
 # Introduction
 
-How can we see the flaw of GDP as a measure of a country's prosperity by flipping coins? 
+How can we use coin flipping to see the flaw of GDP as a measure of a country's prosperity? 
 This project was inspired by a [2011 presentation by physicist Ole Peters at Goodenough College](https://www.youtube.com/watch?v=LGqOH3sYmQA&feature=youtu.be). 
 In the presentation, Peters shows that randomly flipped coins to generate wealth can lead to a state where both of the following are true: 1) Given enough flips, any individual's wealth is guaranteed to fall to zero and 2) the wealth of the cohort of coin flippers increases steadily over time.
 How could those two things both be true? Well, that's exactly the question I had as well. So I decided to replicate the simulation.
@@ -42,11 +42,11 @@ So let's look at a cohort of 1,000 people doing the same thing. We'll also avera
 
 <p align="center"><img src='https://github.com/jseyhun/Examining-Inequality-by-Flipping-Coins/blob/master/images/1000%20trajectories%20-%2060%20flips.png' /></p>
 
-They are doing well! The wealth of the average of 1000 coin flippers looks to have shot up to over $2000 from the starting point of $100. But there is still a lot of noise. So let's see what a cohort of 100,000 people would look like<sup>1</sup>:
+They are doing well! The wealth of the average of 1000 coin flippers looks to have shot up to over $2000 from the starting point of $100. But there is still a lot of noise. So let's see what a cohort of 100,000 people would look like:<sup>1</sup>
 
 <p align="center"><img src='https://github.com/jseyhun/Examining-Inequality-by-Flipping-Coins/blob/master/images/100%2C000%20trajectories%20-%2060%20flips.png' /></p>
 
-Wow. Solid, stable growth with minimal noise. How could that be when we would expect each individual to lose money over time? Let's take a closer look at those 100,000 trajectories.
+Wow. Solid, stable growth with minimal noise. How could that be when we would expect each individual to lose money over time? Let's take a closer look at those 100,000 trajectories.<sup>2</sup>
 
 Here is the distribution of the 100,000 trajectories, looking at the ending wealth amounts only since we don't really care what happens before 60 flips are completed:
 
@@ -90,7 +90,7 @@ This is also how GDP is computed - as a simple average of everyone's income.
 Looking at it this way, we can see that the average coin-flipper went from holding $100 at the start to $1,675 at the end. 
 Using logarithmic growth rates, this represents 282% growth over the 1 hour of coin flipping. Our imaginary city people seem to be prosperous, fat, and happy.
 
-However, using an alternative metric such as the Democratic Domestic Product, or DDP, we see a different picture. DDP is defined as:<sup>2</sup>
+However, using an alternative metric such as the Democratic Domestic Product, or DDP, we see a different picture. DDP is defined as:<sup>3</sup>
 
 <p align="center"><img src="https://s0.wp.com/latex.php?latex=%5Ctext%7BDDP%7D%3D%5Cleft%28%5Cprod_i%5EN+x_i%5Cright%29%5E%7B1%2FN%7D&bg=ffffff&fg=000000&s=0&zoom=2" /></p>
 
@@ -109,7 +109,9 @@ Tweaking the payoffs to something like 1.6 and 0.7 would result in a different s
 
 1) Peters's final cohort consisted of a million people, but 100K gets the point across and makes the computations a little more time friendly.
 
-2) See the second reference.
+2) A little coding trick was employed to conserve memory, since for the 100,000 cohort I only care about each flipper's final wealth along with the average trajectory, and I certainly don't want to keep a data frame with 100,000 rows in working memory. Instead, I update the average trajectory iteratively as each flipper flips, weighting by 1/100,000, and I keep track of each final wealth value and store it separately.
+
+3) See the second reference.
 
 # References
 
