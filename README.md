@@ -5,7 +5,7 @@ This project was inspired by a [2011 presentation by physicist and Ergodicity Ec
 In the presentation, Peters shows that randomly flipped coins to generate wealth can lead to a state where both of the following are true: 1) Given enough flips, any individual's wealth is guaranteed to fall to zero and 2) the wealth of the cohort of coin flippers increases steadily over time.
 How could those two things both be true? Well, that's exactly the question I had as well. So I decided to replicate the simulation.
 
-# Results
+# Experiment and Results
 
 The experiment goes like this: You start with $100 of wealth and flip a fair coin. If it lands heads, your wealth increases by 50%.
 If tails, your wealth decreases by 40%. Just based on those numbers alone it would appear to be a favorable game. 
