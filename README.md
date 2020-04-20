@@ -96,18 +96,18 @@ However, using an alternative metric such as the Democratic Domestic Product, or
 
 Measuring the prosperity of the cohort this way, our group's starting DDP of $100 falls to just $4.2 after 60 flips. This is a 316% reduction in DDP. So not only is this result in the opposite direction of the previous result, the magnitude is larger.
 
-How is this possible? As Peters notes, GDP gives equal weight to the dollar. More dollars in society means society is doing better, regardless of how those dollars were distributed before and after. DDP gives an equal weight to the person. Immediately it becomes clear why our peanut society tanked via the DDP but prospered with GDP, even though recall that the coin-flipping procedure mathematically increased the wealth of the average participant over time. 
+How is this possible? As Peters notes, GDP gives equal weight to the dollar. More dollars in society means society is doing better, regardless of how those dollars are distributed before and after. DDP gives an equal weight to the person. Immediately it becomes clear why our peanut society tanked via the DDP but prospered with GDP, even though recall that the coin-flipping procedure mathematically increased the wealth of the average participant over time. This is because wealth in this context is not ergodic - the wealth gains measured when averaging over the ensemble do not reflect the gain in wealth to one person over time. In cases like these, measuring across ensembles versus across time can give very different results. 
 
 I'm not making any statment about the prosperity of people today - all I've done is built a little toy and applied different metrics to it.
 But, if our society were to ever turn into one resembling the toy city, with over 80% of people getting poorer over time, it's entirely possible that GDP wouldn't alert us to a decay of the majority. 
 
-As a reward for getting to the end - the reason for the discrepancy in metrics when applied to Peanut City is because the logarithmic returns of the game are unfavorable to begin with. |log(0.6)| > |log(1.5)|
+As a reward for getting to the end - the reason for the discrepancy in metrics when applied to the peanut city is because the logarithmic returns of the game are unfavorable to begin with. |log(0.6)| > |log(1.5)| 
 
 Tweaking the payoffs to something like 1.6 and 0.7 would result in a different set of peanuts! Thank you for reading my piece. 
 
 # Notes
 
-1) Peters's final cohort consisted of a million people, but 100K gets the point across and makes the computations a little more time friendly.
+1) Peters's final cohort consisted of a million people, but 100K gets the point across and makes the computations a little more time friendly for my little old machine.
 
 2) A little coding trick was employed to conserve memory, since for the 100,000 cohort I only care about each flipper's final wealth along with the average trajectory, and I certainly don't want to keep a data frame with 100,000 rows in working memory. Instead, I update the average trajectory iteratively as each flipper flips, weighting by 1/100,000, and I keep track of each final wealth value and store it separately.
 
