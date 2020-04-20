@@ -1,7 +1,7 @@
 # Introduction
 
 How can we use coin flipping to see the flaw of GDP as a measure of a country's prosperity? 
-This project was inspired by a [2011 presentation by physicist Ole Peters at Goodenough College](https://www.youtube.com/watch?v=LGqOH3sYmQA&feature=youtu.be). 
+This project was inspired by a [2011 presentation by physicist and Ergodicity Economics researcher Ole Peters at Goodenough College](https://www.youtube.com/watch?v=LGqOH3sYmQA&feature=youtu.be). 
 In the presentation, Peters shows that randomly flipped coins to generate wealth can lead to a state where both of the following are true: 1) Given enough flips, any individual's wealth is guaranteed to fall to zero and 2) the wealth of the cohort of coin flippers increases steadily over time.
 How could those two things both be true? Well, that's exactly the question I had as well. So I decided to replicate the simulation.
 
