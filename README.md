@@ -109,7 +109,7 @@ Tweaking the payoffs to something like 1.6 and 0.7 would result in a different s
 
 1) Peters's final cohort consisted of a million people, but 100K gets the point across and makes the computations a bit more time friendly for my little old machine.
 
-2) A little coding trick was employed to conserve memory, since for the 100,000 cohort I only care about each flipper's final wealth along with the average trajectory, and I certainly don't want to keep a data frame with 100,000 rows in working memory. Instead, I update the average trajectory iteratively as each flipper flips, weighting by 1/100,000, and I keep track of each final wealth value and store it separately.
+2) A little coding trick was employed to conserve memory, since for the 100,000 cohort I only care about each flipper's final wealth along with the average trajectory, and I certainly don't want to keep a data frame with 100,000 columns in working memory. Instead, I update the average trajectory iteratively as each flipper flips, weighting by 1/100,000, and I keep track of each final wealth value and store it separately.
 
 3) See the second reference.
 
